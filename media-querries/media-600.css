@@ -1,0 +1,28 @@
+h1{
+    font-size: 2.5em !important;
+}
+
+h1, h3{
+    top:5%;
+    
+}
+
+.portrait{
+    bottom:350px;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+}
+
+.open-btn:hover .portrait {
+    bottom:350px !important;
+    transform: scale(1.2);
+}
+
+#myLife li:nth-child(2n+1) span{
+    top:110px;
+}
+
+#myLife li:nth-child(2n) span{
+    bottom:110px;
+}

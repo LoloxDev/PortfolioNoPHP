@@ -1,0 +1,87 @@
+section::after,section::before,header::after{
+    display: none;
+}
+
+.a2::after, .a2::before{
+    display: block;
+}
+
+section{
+    padding: 150px 0 0 0;
+}
+
+.a2{
+    padding: 122px 50px;
+}
+
+
+nav{
+    width: 100%;
+    right: 0;
+}
+
+nav ul{
+    width: unset;
+}
+
+h1,h3{
+    top: 19%;
+}
+
+.j4{
+    transform: rotate(-30deg);
+}
+
+.j2{
+    transform: rotate(30deg);
+}
+
+.j5{
+    right: 30%;
+    transform: rotate(-150deg);
+}
+
+.j3{
+    left: 30%;
+    transform: rotate(150deg);
+}
+
+.wavesbox{
+    bottom: 3%;
+}
+
+.ocean{
+    border-radius: unset;
+    bottom: 0;
+}
+
+.gridContain{
+
+    left: 50%;
+    margin-left: -175px;
+    top: 20%;
+    bottom: unset;
+    row-gap: 10px;
+}
+
+.gridContain2{
+
+    right: 50%;
+    margin-right: -175px;
+    bottom: 10%;
+    top:unset;
+    row-gap: 10px;
+}
+
+.login-popup {
+    top:-120px;
+}
+
+h1,
+h3 {
+    top: 30%;
+}
+
+.fp-slides .active{
+    background-position-x:-35% !important;
+}

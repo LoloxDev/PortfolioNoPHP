@@ -1,0 +1,132 @@
+header{
+    height: unset;
+}
+
+.a2::after, .a2::before{
+    display: none;
+}
+.a2{
+    padding: 70px 0 0 0;
+}
+
+.jauge{
+    display: none;
+}
+
+.j1{
+    display: block !important;
+    height: 100%;
+}
+
+.wavesbox{
+    bottom: 7px;
+}
+
+section:nth-of-type(1) ul li {
+    width: 100px;
+    height: 100px;
+    left:50% !important;
+    margin-left: -52px !important;
+}
+
+
+.active .waves {
+    height: 100px !important;
+    border-radius: unset;
+}
+
+
+.active .r1{
+    transition: all 3.2s linear 0.4s;
+}
+
+#Jadoo img{
+    margin: 25px auto;
+}
+
+.active .waves{
+    bottom:0;
+    transition: all 1s linear 3.5s;
+}
+
+.active .j1 {
+    animation: unset;
+    opacity: 1;
+}
+
+.fp-viewing-section3 #myLife{
+    transform: rotate(90deg);
+    width : 700px;
+    margin-left: -350px;
+    left:50%;
+}
+
+.a3 h3{
+    top: 0;
+}
+
+#myLife li span{
+    transform: rotate(-90deg);
+    left: -90px;
+}
+
+#myLife li:nth-child(2n+1) span{
+    top:150px;
+}
+
+#myLife li:nth-child(2n) span{
+    bottom:150px;
+}
+
+#myLife ::before{
+    transform: rotate(-90deg);
+    
+}
+
+#waterprojets li{
+    width: 100px;
+    height: 100px;
+}
+
+#waterprojets li:first-of-type {
+    top:8%;
+}
+
+#waterprojets li:nth-of-type(2) {
+    top:23%;
+}
+
+#waterprojets li:nth-of-type(3) {
+    top:38%;
+}
+
+#waterprojets li:nth-of-type(4) {
+    top:53%;
+}
+
+#waterprojets li:nth-of-type(5) {
+    top:68%;
+}
+
+.active li:first-of-type figure{
+    transition: all 0.3s linear 0.8s;
+}
+
+.active li:nth-of-type(2) figure {
+    transition: all 0.3s linear 1.2s;
+}
+
+
+.active li:nth-of-type(3) figure {
+    transition: all 0.3s linear 1.6s;
+}
+
+
+.active li:nth-of-type(4) figure {
+    transition: all 0.3s linear 2s;
+}
+
+
+.active li:nth-of-type(5) figure {
+    transition: all 0.3s linear 2.4s;
+}

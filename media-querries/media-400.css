@@ -1,0 +1,66 @@
+.fp-viewing-section3 #myLife{
+    transform: rotate(90deg);
+    width : 700px;
+    margin-left: -350px;
+    left:50%;
+}
+
+h3::before,h3::after{
+    display: none;
+}
+
+section, .a2{
+    padding: 0;
+}
+
+header{
+    display: none;
+}
+
+.a3 h3{
+    top: 5%;
+}
+
+#myLife li span{
+    top: 0 !important;
+    bottom:0;
+    background-color: #21282d;
+}
+
+#myLife ::before{
+    display: none; 
+}
+
+#myLife ::after{
+    display: none; 
+}
+
+#myLife li:nth-of-type(4) {
+    left: 40%;
+}
+
+#myLife li:nth-of-type(5) {
+    left: 50%;
+}
+
+#myLife li:nth-of-type(6) {
+    right: 35%;
+}
+
+#myLife li:nth-of-type(7) {
+    right: 20%;
+}
+
+
+
+.gridContain{
+    top:12%;
+}
+
+.gridContain2{
+    bottom:12%;
+}
+
+.login-popup {
+    top:-50px;
+}
