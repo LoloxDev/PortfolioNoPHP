@@ -56,39 +56,26 @@ body {
 
 @keyframes logo-animation {
     20% {
-        transform: rotate(15deg) scale(1) translateX(5%);
-    }
-    30% {
-        transform: rotate(-15deg) scale(0.9) translateX(-5%) translateY(5%);
+        transform: rotate(15deg);
     }
 
     40% {
-        transform: rotate(20deg) scale(0.9) translateX(5%) translateY(5%);
-    }
-
-    50% {
-        transform: rotate(-25deg) scale(0.9) translateX(-10%) translateY(-5%);
+        transform: rotate(-10deg);
     }
 
     60% {
-        transform: rotate(30deg) scale(0.8) translateX(5%) translateY(10%);
-    }
-    70% {
-        transform: rotate(-25deg) scale(0.9) translateX(-15%) translateY(5%);
+        transform: rotate(5deg);
     }
 
     80% {
-        transform: rotate(20deg) scale(0.9) translateX(-5%) translateY(5%);
-    }
-
-    90% {
-        transform: rotate(5deg) scale(0.9) translateX(5%) translateY(-5%);
+        transform: rotate(-5deg);
     }
 
     to {
-        transform: rotate(0deg) scale(1) translateX(0%);
+        transform: rotate(0deg);
     }
 }
+
 
 /* LOGO */
 
@@ -559,7 +546,7 @@ header::after {
 }
 
 #waterprojets li:hover figure {
-    animation: logo-animation 1.5s ease-in-out;
+    animation: logo-animation 0.9s ease-in-out;
     transform: scale(1.1);
 }
 
